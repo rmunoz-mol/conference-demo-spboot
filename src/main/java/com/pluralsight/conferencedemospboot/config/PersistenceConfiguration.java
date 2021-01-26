@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration {
 
-    @Bean
+  /*  @Bean
     public DataSource dataSource(){
 
         DataSourceBuilder builder = DataSourceBuilder.create();
@@ -18,5 +18,5 @@ public class PersistenceConfiguration {
         builder.password("p0s7gr3sqlP4ss_1094");
         System.out.println("My custom datasource bean has been initialized and set");
         return builder.build();
-    }
+    }*/
 }
